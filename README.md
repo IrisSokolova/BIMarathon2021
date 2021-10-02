@@ -1,18 +1,18 @@
 # BIMarathon2021
 COVID &amp; Digital Learning
 
-## The problem:
+## Problem:
 
 In 2020, schools had faced the problem of choosing resources to provide an online learning process.
 A large selection of technologies misleads schools. Which product should they choose? What product will better meet the needs of the school in the educational process? When there are thousands of products on the market with similar functionality.
 
-## The goal:
+## Goal:
 
 The purpose of the study is to cluster existing products. Help schools choose the best packet of products based on their needs and user engagement with the platform.
 
 Each school district has a different level of diversity. So before clusterization of products, I will classify school districts by level of diversity and provide an optimal packet of products for each level.
 
-## The Metrics:
+## Metrics:
 
 DAU (daily active users) and MAU (monthly active users).
 DAU/MAU Ratio -  Stickiness. The proportion of monthly active users that engage with the product in a single day.
