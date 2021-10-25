@@ -31,6 +31,19 @@ The product file includes information about the characteristics of the top 372 p
 
 The district file includes information about the characteristics of school districts, including data from [National Center for Education Statistics (NCES)](https://nces.ed.gov/), [The Federal Communications Commission (FCC)](https://www.fcc.gov/), and [Edunomics Lab](https://edunomicslab.org/). In addition to the files provided, we encourage you to use other public data sources such as examples listed below.
 
+## Data aggregation, Pre-Processing Data, Uploading to MySQL
+-- Jupyter Notebook 
+   COVID & Digital Learning - read, merge, upload data to SQL server.ipynb
+-- SQL script (CREATE DATABASE, ALTER TABLE, CREATE TABLE AND ect.)
+  
+## Dealing with Null values
+-- gathering additional information from open sourses
+   https://www.governing.com/archive/school-district-totals-average-enrollment-statistics-for-states-metro-areas.html
+   https://nces.ed.gov/programs/digest/d20/tables/dt20_204.10.asp
+   https://educationdata.org/public-education-spending-statistics#newhempaer
+-- Using the Python
+-- Update tables in Database SQL (advanced SQL Query using CASE scenario and multi-table UPDATE)
+
 ## File Structure
 
 The organization of data sets is described below:
