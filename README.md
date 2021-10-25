@@ -36,7 +36,7 @@ The district file includes information about the characteristics of school distr
    COVID & Digital Learning - read, merge, upload data to SQL server.ipynb
 -- SQL script (CREATE DATABASE, ALTER TABLE, CREATE TABLE AND ect.)
   
-## Dealing with Null values
+## Dealing with Null values / Working with Missing Data in Pandas and mySQL
 -- gathering additional information from open sourses
    https://www.governing.com/archive/school-district-totals-average-enrollment-statistics-for-states-metro-areas.html
    https://nces.ed.gov/programs/digest/d20/tables/dt20_204.10.asp
