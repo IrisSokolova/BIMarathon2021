@@ -14,14 +14,14 @@ Each school district has a different level of diversity. So before clusterizatio
 
 ## Metrics:
 
-DAU (daily active users) and MAU (monthly active users).
-DAU/MAU Ratio -  Stickiness. The proportion of monthly active users that engage with the product in a single day.
-Frequency - How often the product is used.
-Recency - How long has the product been used.
-Retention - Ноw schools interact with packets of products during 2020.
+  * DAU (daily active users) and MAU (monthly active users).
+  * DAU/MAU Ratio -  Stickiness. The proportion of monthly active users that engage with the product in a single day.
+  * Frequency - How often the product is used.
+  * Recency - How long has the product been used.
+  * Retention - Ноw schools interact with packets of products during 2020.
 
 
-# Data Description
+## Data Description
 
 The engagement data are based on [LearnPlatform](https://learnplatform.com/)’s Student Chrome Extension. 
 
@@ -32,17 +32,16 @@ The product file includes information about the characteristics of the top 372 p
 The district file includes information about the characteristics of school districts, including data from [National Center for Education Statistics (NCES)](https://nces.ed.gov/), [The Federal Communications Commission (FCC)](https://www.fcc.gov/), and [Edunomics Lab](https://edunomicslab.org/). In addition to the files provided, we encourage you to use other public data sources such as examples listed below.
 
 ## Data aggregation, Pre-Processing Data, Uploading to MySQL
--- Jupyter Notebook 
-   COVID & Digital Learning - read, merge, upload data to SQL server.ipynb
--- SQL script (CREATE DATABASE, ALTER TABLE, CREATE TABLE AND ect.)
+   * [jupiter notebook COVID & Digital Learning - read, merge, upload data to SQL server.ipynb](https://github.com/IrisSokolova/BIMarathon2021/blob/main/COVID%20%26%20Digital%20Learning%20-%20read%2C%20merge%2C%20upload%20data%20to%20SQL%20server%20.ipynb)
+   * SQL script (CREATE DATABASE, ALTER TABLE, CREATE TABLE AND ect.)
   
 ## Dealing with Null values / Working with Missing Data in Pandas and mySQL
--- gathering additional information from open sourses
+   * gathering additional information from open sourses
    https://www.governing.com/archive/school-district-totals-average-enrollment-statistics-for-states-metro-areas.html
    https://nces.ed.gov/programs/digest/d20/tables/dt20_204.10.asp
    https://educationdata.org/public-education-spending-statistics#newhempaer
--- Using the Python
--- Update tables in Database SQL (advanced SQL Query using CASE scenario and multi-table UPDATE)
+   * Using the Python
+   * Update tables in Database SQL (advanced SQL Query using CASE scenario and multi-table UPDATE)
 
 ## File Structure
 
