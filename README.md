@@ -33,7 +33,8 @@ The district file includes information about the characteristics of school distr
 
 
 ## Physical Data Model (COVID & Digital Learning)
-![alt text](https://github.com/IrisSokolova/BIMarathon2021/blob/main/IS%20Physical%20Data%20Model%20(COVID%20%26%20Digital%20Learning).pdf)
+![Physical Data Model (COVID & Digital Learning)](https://github.com/IrisSokolova/BIMarathon2021/blob/main/IS Physical Data Model (COVID & Digital Learning).pdf?raw=true) 
+
 
 
 ## Data aggregation, Pre-Processing Data, Uploading to MySQL
