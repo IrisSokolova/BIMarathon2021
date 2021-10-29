@@ -39,7 +39,7 @@ The district file includes information about the characteristics of school distr
 
 ## Data aggregation, Pre-Processing Data, Uploading to MySQL
    * [jupyter notebook COVID & Digital Learning - read, merge, upload data to SQL server.ipynb](https://github.com/IrisSokolova/BIMarathon2021/blob/main/COVID%20%26%20Digital%20Learning%20-%20read%2C%20merge%2C%20upload%20data%20to%20SQL%20server%20.ipynb)
-   * SQL script (CREATE DATABASE, ALTER TABLE, CREATE TABLE AND ect.)
+   * [SQL script (CREATE DATABASE, ALTER TABLE, CREATE TABLE AND ect.)](https://github.com/IrisSokolova/BIMarathon2021/blob/main/create_tables_insert_data.sql)
   
 ## Dealing with Null values / Working with Missing Data in Pandas and mySQL
    * gathering additional information from open sourses
@@ -47,7 +47,7 @@ The district file includes information about the characteristics of school distr
    https://nces.ed.gov/programs/digest/d20/tables/dt20_204.10.asp
    https://educationdata.org/public-education-spending-statistics#newhempaer
    * Using the Python
-   * Update tables in Database SQL (advanced SQL Query using CASE scenario and multi-table UPDATE)
+   * Update tables in Database SQL [(advanced SQL Query using CASE scenario and multi-table UPDATE)](https://github.com/IrisSokolova/BIMarathon2021/blob/main/Null_values_update_tables.sql)
 
 ## File Structure
 
