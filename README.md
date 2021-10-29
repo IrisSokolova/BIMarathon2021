@@ -32,7 +32,8 @@ The product file includes information about the characteristics of the top 372 p
 The district file includes information about the characteristics of school districts, including data from [National Center for Education Statistics (NCES)](https://nces.ed.gov/), [The Federal Communications Commission (FCC)](https://www.fcc.gov/), and [Edunomics Lab](https://edunomicslab.org/). In addition to the files provided, we encourage you to use other public data sources such as examples listed below.
 
 
-## ![Physical Data Model (COVID & Digital Learning)](https://github.com/IrisSokolova/BIMarathon2021/blob/main/IS%20Physical%20Data%20Model%20(COVID%20%26%20Digital%20Learning).pdf)
+## Physical Data Model (COVID & Digital Learning)
+! [Physical Data Model (COVID & Digital Learning)(https://github.com/IrisSokolova/BIMarathon2021/blob/main/IS%20Physical%20Data%20Model%20(COVID%20%26%20Digital%20Learning).pdf)
 
 
 ## Data aggregation, Pre-Processing Data, Uploading to MySQL
