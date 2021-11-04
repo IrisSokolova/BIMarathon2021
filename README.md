@@ -50,7 +50,7 @@ The district file includes information about the characteristics of school distr
    * Update tables in Database SQL [(advanced SQL Query using CASE scenario and multi-table UPDATE)](https://github.com/IrisSokolova/BIMarathon2021/blob/main/Null_values_update_tables.sql)
 
 ## KMeans clustering (Clusers of districts & Clusters of product)
-    * go to notebook [KMeans_clustering_Digital_COVID2020.ipynb] (https://github.com/IrisSokolova/BIMarathon2021/blob/main/newfolder/district_clusters.png)
+    * Go to notebook [(KMeans_clustering_Digital_COVID2020.ipynb)](https://github.com/IrisSokolova/BIMarathon2021/blob/main/KMeans_clustering_Digital_COVID2020.ipynb)
 
 ### K-means
   * K-means is a popular centroid-based, hard clustering algorithm
