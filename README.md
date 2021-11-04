@@ -33,7 +33,7 @@ The district file includes information about the characteristics of school distr
 
 
 ## Physical Data Model (COVID & Digital Learning)
-[Physical Data Model (COVID & Digital Learning)](https://github.com/IrisSokolova/BIMarathon2021/blob/main/IS%20Physical%20Data%20Model%20(COVID%20%26%20Digital%20Learning).pdf) 
+![Physical Data Model (COVID & Digital Learning)](https://github.com/IrisSokolova/BIMarathon2021/blob/main/newfolder/data_model.png) 
 
 
 
@@ -48,6 +48,48 @@ The district file includes information about the characteristics of school distr
    https://educationdata.org/public-education-spending-statistics#newhempaer
    * Using the Python
    * Update tables in Database SQL [(advanced SQL Query using CASE scenario and multi-table UPDATE)](https://github.com/IrisSokolova/BIMarathon2021/blob/main/Null_values_update_tables.sql)
+
+## KMeans clustering (Clusers of districts & Clusters of product)
+    * [KMeans_clustering_Digital_COVID2020.ipynb] (
+
+### K-means
+  * K-means is a popular centroid-based, hard clustering algorithm
+  * I am working with a large, unlabeled and unstructured dataset, clustering can be helpful to trim the dataset down to a size that’s more manageable for analysis.
+  I am unable to make an estimate how many clusters in the data I can use algorithms like the elbow method and the silhouette method to determine the optimal number of clusters.
+
+### How to choose the optimal number of clusters?
+#### Silhouette Coefficient method
+  * The Silhouette Coefficient is calculated using the mean intra-cluster distance (a) and the mean nearest-cluster distance (b) for each sample.
+  * The Silhouette Coefficient for a sample is (b - a) / max(a, b).
+  * To clarify, b is the distance between a sample and the nearest cluster that the sample is not a part of.
+#### Elbow method
+  * select the optimal number of clusters by fitting the model with a range of values for 𝐾. If the line chart resembles an arm, then the “elbow” (the point of inflection on the curve) is a good indication that the underlying model fits best at that point.
+  * Inertia_ - the sum of square distances from each point to its assigned center
+  How to eliminate highly correlated features?
+  * Highly correlated features indicate linear relationship. I used Pearson Correlation Matrix to which of them highly correlated and exclude them.
+### How to cluster data? What are the main metrict to cluster Districts or Products in a different groups?
+#### District description (metrics): 
+
+  * recency - last contact with platform
+  * frequency - how often district communicate with platform
+  * num_products_used - how many products district used
+  * total_pages_per_student - total number of pages per student
+  * num_providers - Whose products district used
+  * function_covered - Total unique function covered
+  * usage_day - How many days district had been with platform
+  * clicks_per_day - How many loads per day
+#### Result of Districts clustering 
+![District clusters](district_clusters.png)
+
+#### Product description metrics:
+
+  * num_district - How many districts used particular product
+  * lp_id_loads - Frequency, How many time district communicate with particular product
+  * engagement_per_student - Total pages of product loaded by student
+  
+#### Result of Products clustering
+![Product_clusters](https://github.com/IrisSokolova/BIMarathon2021/blob/main/newfolder/product_clusters.png)
+
 
 ## File Structure
 
