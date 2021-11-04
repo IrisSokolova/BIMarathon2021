@@ -67,7 +67,7 @@ The district file includes information about the characteristics of school distr
   * Inertia_ - the sum of square distances from each point to its assigned center
   How to eliminate highly correlated features?
   * Highly correlated features indicate linear relationship. I used Pearson Correlation Matrix to which of them highly correlated and exclude them.
-### How to cluster data? What are the main metrict to cluster Districts or Products in a different groups?
+### How to cluster data? What are the main metrict to cluster Districts or Products into a different groups?
 #### District description (metrics): 
 
   * recency - last contact with platform
