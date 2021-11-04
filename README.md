@@ -46,11 +46,11 @@ The district file includes information about the characteristics of school distr
    https://www.governing.com/archive/school-district-totals-average-enrollment-statistics-for-states-metro-areas.html
    https://nces.ed.gov/programs/digest/d20/tables/dt20_204.10.asp
    https://educationdata.org/public-education-spending-statistics#newhempaer
-   * Using the Python
+   * Using the Python 
    * Update tables in Database SQL [(advanced SQL Query using CASE scenario and multi-table UPDATE)](https://github.com/IrisSokolova/BIMarathon2021/blob/main/Null_values_update_tables.sql)
 
 ## KMeans clustering (Clusers of districts & Clusters of product)
-    * [KMeans_clustering_Digital_COVID2020.ipynb] (
+    * go to notebook [KMeans_clustering_Digital_COVID2020.ipynb] (https://github.com/IrisSokolova/BIMarathon2021/blob/main/newfolder/district_clusters.png)
 
 ### K-means
   * K-means is a popular centroid-based, hard clustering algorithm
@@ -79,9 +79,9 @@ The district file includes information about the characteristics of school distr
   * usage_day - How many days district had been with platform
   * clicks_per_day - How many loads per day
 #### Result of Districts clustering 
-![District clusters](district_clusters.png)
+![District clusters](https://github.com/IrisSokolova/BIMarathon2021/blob/main/newfolder/district_clusters.png)
 
-#### Product description metrics:
+#### Product description (metrics):
 
   * num_district - How many districts used particular product
   * lp_id_loads - Frequency, How many time district communicate with particular product
