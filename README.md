@@ -15,10 +15,9 @@ Each school district has a different level of diversity. So before clusterizatio
 ## Metrics:
 
   * DAU (daily active users) and MAU (monthly active users).
-  * DAU/MAU Ratio -  Stickiness. The proportion of monthly active users that engage with the product in a single day.
   * Frequency - How often the product is used.
   * Recency - How long has the product been used.
-  * Retention - Ноw schools interact with packets of products during 2020.
+  * Engagement index - Total number of pages per student by given day/month.
 
 
 ## Data Description
@@ -89,6 +88,15 @@ The district file includes information about the characteristics of school distr
   
 #### Result of Products clustering
 ![Product_clusters](https://github.com/IrisSokolova/BIMarathon2021/blob/main/newfolder/product_clusters.png)
+
+
+### Data visualization with Tableau. How better represent results of clustering?
+
+![Customer segmentation (COVID & Digital Learning)](https://github.com/IrisSokolova/BIMarathon2021/blob/main/newfolder/Customer_segmentation.png) 
+![Disctricts whith high level of activity (COVID & Digital Learning)](https://github.com/IrisSokolova/BIMarathon2021/blob/main/newfolder/High_activity_school.png)
+![Disctricts who left platform (COVID & Digital Learning)](https://github.com/IrisSokolova/BIMarathon2021/blob/main/newfolder/Churn.png) 
+
+### Summary
 
 
 ## File Structure
