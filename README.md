@@ -4,25 +4,27 @@ COVID &amp; Digital Learning
 ## Problem:
 
 In 2020, schools had faced the problem of choosing resources to provide an online learning process.
-A large selection of technologies misleads schools. Which product should they choose? What product will better meet the needs of the school in the educational process? When there are thousands of products on the market with similar functionality.
+A large selection of technologies misleads schools. Which product should they choose? What effect will better meet the needs of the school in the educational process? When there are thousands of products on the market with similar functionality. Who can provide such types of services?
+Digital learning platform is a unique opportunity for school districts to get complete services such as a Chromebook device, software installation, and a full catalog of e-educational products.
+Digital learning platform takes care of their clients by providing high-quality service.
 
 ## Goal:
 
-The purpose of the study is to cluster existing products. Help schools choose the best packet of products based on their needs and user engagement with the platform.
+The purpose of the study is to cluster existing clients and products. Help schools choose the best packet of products based on their needs and user engagement with the platform. Help Digital learning platform better understand its clients and provide better service.
 
-Each school district has a different level of diversity. So before clusterization of products, I will classify school districts by level of diversity and provide an optimal packet of products for each level.
+Each school district has a different level of diversity,  financial ability, engagement level. So before clusterization of school districts, I will aggregate data and calculate main metrics.
 
 ## Metrics:
 
   * DAU (daily active users) and MAU (monthly active users).
-  * Frequency - How often the product is used.
+  * Frequency - How often has the product been used.
   * Recency - How long has the product been used.
   * Engagement index - Total number of pages per student by given day/month.
 
 
 ## Data Description
 
-The engagement data are based on [LearnPlatform](https://learnplatform.com/)’s Student Chrome Extension. 
+The engagement data based on [LearnPlatform](https://learnplatform.com/)’s Student Chrome Extension. 
 
 The extension collects page load events of over 10K education technology products in our product library, including websites, apps, web apps, software programs, extensions, ebooks, hardwares, and services used in educational institutions. The engagement data have been aggregated at school district level, and each file represents data from one school district. 
 
@@ -33,7 +35,6 @@ The district file includes information about the characteristics of school distr
 
 ## Physical Data Model (COVID & Digital Learning)
 ![Physical Data Model (COVID & Digital Learning)](https://github.com/IrisSokolova/BIMarathon2021/blob/main/newfolder/data_model.png) 
-
 
 
 ## Data aggregation, Pre-Processing Data, Uploading to MySQL
@@ -48,13 +49,13 @@ The district file includes information about the characteristics of school distr
    * Using the Python 
    * Update tables in Database SQL [(advanced SQL Query using CASE scenario and multi-table UPDATE)](https://github.com/IrisSokolova/BIMarathon2021/blob/main/Null_values_update_tables.sql)
 
-## KMeans clustering (Clusers of districts & Clusters of product)
+## KMeans clustering (Clusters of districts & Clusters of product)
    [Go to notebook](https://github.com/IrisSokolova/BIMarathon2021/blob/main/KMeans_clustering_Digital_COVID2020.ipynb)
 
 ### K-means
   * K-means is a popular centroid-based, hard clustering algorithm
-  * I am working with a large, unlabeled and unstructured dataset, clustering can be helpful to trim the dataset down to a size that’s more manageable for analysis.
-  I am unable to make an estimate how many clusters in the data I can use algorithms like the elbow method and the silhouette method to determine the optimal number of clusters.
+  * I am working with a large, unlabeled, and unstructured dataset; clustering can be helpful to trim the dataset down to a size that’s more manageable for analysis.
+  I am unable to make an estimate of how many clusters are in the data. I can use algorithms like the elbow and silhouette methods to determine the optimal number of clusters.
 
 ### How to choose the optimal number of clusters?
 #### Silhouette Coefficient method
@@ -65,17 +66,17 @@ The district file includes information about the characteristics of school distr
   * select the optimal number of clusters by fitting the model with a range of values for 𝐾. If the line chart resembles an arm, then the “elbow” (the point of inflection on the curve) is a good indication that the underlying model fits best at that point.
   * Inertia_ - the sum of square distances from each point to its assigned center
   How to eliminate highly correlated features?
-  * Highly correlated features indicate linear relationship. I used Pearson Correlation Matrix to which of them highly correlated and exclude them.
-### How to cluster data? What are the main metrict to cluster Districts or Products into a different groups?
+  * Highly correlated features indicate linear relationships. I used Pearson Correlation Matrix to which of them were highly correlated and excluded them.
+### How to cluster data? What are the main metrics to cluster Districts or Products into different groups?
 #### District description (metrics): 
 
-  * recency - last contact with platform
-  * frequency - how often district communicate with platform
+  * recency - last contact with the platform
+  * frequency - how often district communicate with the platform
   * num_products_used - how many products district used
   * total_pages_per_student - total number of pages per student
   * num_providers - Whose products district used
   * function_covered - Total unique function covered
-  * usage_day - How many days district had been with platform
+  * usage_day - How many days district had been with the platform
   * clicks_per_day - How many loads per day
 #### Result of Districts clustering 
 ![District clusters](https://github.com/IrisSokolova/BIMarathon2021/blob/main/newfolder/district_clusters.png)
@@ -92,10 +93,9 @@ The district file includes information about the characteristics of school distr
 
 ### Data visualization with Tableau. How better represent results of clustering?
 
-![Customer segmentation (COVID & Digital Learning)](https://github.com/IrisSokolova/BIMarathon2021/blob/main/newfolder/Customer_segmentation.png) 
-![Disctricts whith high level of activity (COVID & Digital Learning)](https://github.com/IrisSokolova/BIMarathon2021/blob/main/newfolder/High_activity_school.png)
-![Disctricts who left platform (COVID & Digital Learning)](https://github.com/IrisSokolova/BIMarathon2021/blob/main/newfolder/Churn.png) 
+ [Go to Tableau Pablic](https://public.tableau.com/app/profile/irina2503/viz/Customersegmentationdashboard_16365838946590/Dashboard2)
 
+![Customer segmentation (COVID & Digital Learning)](https://github.com/IrisSokolova/BIMarathon2021/blob/main/newfolder/Customer_segmentation.png) 
 ### Summary
 
 
