@@ -46,7 +46,7 @@ The district file includes information about the characteristics of school distr
    https://www.governing.com/archive/school-district-totals-average-enrollment-statistics-for-states-metro-areas.html
    https://nces.ed.gov/programs/digest/d20/tables/dt20_204.10.asp
    https://educationdata.org/public-education-spending-statistics#newhempaer
-   * Using the Python 
+   * Using the Python [notebook](https://github.com/IrisSokolova/BIMarathon2021/blob/main/Working%20with%20Missing%20Data%20in%20Pandas%20-%20%20COVID%20%26%20Digital%20Learning%20.ipynb)
    * Update tables in Database SQL [(advanced SQL Query using CASE scenario and multi-table UPDATE)](https://github.com/IrisSokolova/BIMarathon2021/blob/main/Null_values_update_tables.sql)
 
 ## KMeans clustering (Clusters of districts & Clusters of product)
